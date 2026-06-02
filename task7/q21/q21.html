@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Small E-Commerce App</title>
+  <style src="q21.css"></style>
+</head>
+<body>
+  <h1>Mini E-Commerce Store</h1>
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search product">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="men's clothing">Men's Clothing</option>
+      <option value="women's clothing">Women's Clothing</option>
+      <option value="jewelery">Jewelery</option>
+      <option value="electronics">Electronics</option>
+    </select>
+    <select id="sortPrice">
+      <option value="default">Sort by Price</option>
+      <option value="lowToHigh">Low to High</option>
+      <option value="highToLow">High to Low</option>
+    </select>
+  </div>
+  <div id="productsContainer"></div>
+  <div class="cart">
+    <h2>Cart</h2>
+    <div id="cartContainer"></div>
+    <p id="total">Total: $0</p>
+  </div>
+  <script src="q21.js"></script>
+</body>
+</html>
